@@ -9,7 +9,7 @@ headers =  {
         'X-User-ID': API_ID,
         "Content-Type":"application/json"
     }
-url = 'https://play.ht/api/v1/articleStatus?transcriptionId=-NPxJoDbwa2d4QXCGFod'
+url = 'https://play.ht/api/v1/articleStatus?transcriptionId=-NPxMmUU8cQ4_bMJVgu3'
 payload = json.dumps({"status":"CREATED","transcriptionId":"-NPxHE714ljH9II8tTEe","contentLength":2,"wordCount":10})
 response = requests.request("GET",url, headers=headers,data=payload)
 print(response.text)
